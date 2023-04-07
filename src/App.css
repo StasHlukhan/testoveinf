@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.post-enter {
+  transform: translateY(-350px);
+  opacity: 1;
+}
+.post-enter-active {
+  transform: translateY(0px);
+  
+  transition: 0.5s;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateY(-350px);
+  transition: 0.8s;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.post_btns{
+  display: flex;
+}
