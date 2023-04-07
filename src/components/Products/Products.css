@@ -1,0 +1,12 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border: 1px solid teal;
+}
+.item p {
+    margin-left: 20px;
+}
+.item span{
+    font-weight: 700;
+}
