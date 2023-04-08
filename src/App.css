@@ -49,7 +49,7 @@
   opacity: 1;
 }
 .post-exit-active {
-  transform: translateY(-350px);
+  opacity: 0;
   transition: 0.8s;
 }
 .container {

@@ -4,7 +4,7 @@ import { IProduct } from '../../types/types';
 import axios from 'axios';
 import { usePosts } from '../../hooks/useProducts';
 import ProductsList from '../../components/Products/ProductsList';
-import MyModal from '../../components/Modal/MyModal';
+import MyModal from '../UI/Modal/MyModal';
 import MyButton from '../../components/UI/Button/MyButton';
 import PostForm from '../../components/ProductForm/ProductForm';
 import PostFilter from '../../components/ProductFilter/ProductFIlter';
